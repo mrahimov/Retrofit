@@ -1,0 +1,23 @@
+apply plugin: 'com.android.application'
+
+android {
+  compileSdkVersion 26
+  defaultConfig {
+    applicationId "nyc.jrod.c4q.ac44.retrofit.after"
+    minSdkVersion 15
+    targetSdkVersion 26
+  }
+}
+
+dependencies {
+  implementation 'com.android.support:appcompat-v7:26.1.0'
+  implementation 'com.android.support:recyclerview-v7:26.1.0'
+
+  implementation 'com.squareup.picasso:picasso:2.5.2'
+
+  implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+  implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+//  implementation 'com.squareup.retrofit2:converter-moshi:2.3.0'
+//  implementation 'com.squareup.okhttp3:logging-interceptor:3.9.1'
+
+}
